@@ -1,0 +1,29 @@
+.dropdown-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dropdown-main select{
+    width: 70px;
+    height: 25px;
+    font-size: 12px;
+    background: none;
+    color: #3F5CA8;
+    border: #3F5CA8 1px solid;
+    padding-left: 5px;
+}
+
+.dropdown-main select>option{
+    font-size: 12px;
+    background-color: #E9F5FE;
+    color: #3F5CA8;
+}
+
+.dropdown-main select:focus{
+    outline: none;
+}
+
+
+

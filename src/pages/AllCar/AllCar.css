@@ -1,0 +1,67 @@
+.upload {
+  border-radius: 0.3rem;
+  border: 1px solid #624de3;
+  width: 30%;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.upload-input {
+  width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.upload-input + label.upload-custom {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  font-weight: 500;
+  color: #d4cefe;
+  background-color: #624de3;
+  padding: 5px 2px;
+  border: #624de3 1px solid;
+  border-radius: 0.3rem;
+}
+
+.upload-input + label.upload-custom:hover {
+  color: #624de3;
+  cursor: pointer;
+  background-color: #d4cefe;
+}
+
+.upload button > span {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  font-weight: 500;
+  color: #d4cefe;
+  background-color: #624de3;
+  padding: 5px 2px;
+  border: #624de3 1px solid;
+  border-radius: 2px;
+}
+
+.upload button.btn.undefined {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  font-weight: 500;
+  color: #d4cefe;
+  background-color: #624de3;
+  padding: 5.75px 5px 5.5px 5px;
+  border: #624de3 1px solid;
+  border-radius: 0.3rem;
+}
+
+.upload-custom svg {
+  vertical-align: middle;
+  font-size: 1.2rem;
+  margin-left: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+
+span#file-name {
+  padding-left: 0.5rem;
+}

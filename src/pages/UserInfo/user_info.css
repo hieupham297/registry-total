@@ -1,0 +1,86 @@
+.profile-page {
+    margin-top: 80px;
+}
+
+.info {
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.wrapper {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    border: 5px solid #5B39E3;
+    border-radius: 50%;
+    background: url('../../assets/avatar.png');
+    background-size: 100% 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.left {
+    margin-right: 150px;
+    text-align: center;
+}
+
+.left p {
+    color: #0C1230;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.right p {
+    color: #0C1230;
+    margin-bottom: 45px;
+}
+
+#my-label {
+    font-weight: bold;
+    width: 150px;
+}
+
+.log-out {
+    display: block;
+    margin: 20px auto 10px;
+    max-width: 1600px;
+    width: 20%;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #0C1230;
+    border: solid 1px gray;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.log-out:hover {
+    color: rgb(206, 205, 205);
+    cursor: pointer;
+}
+
+.change-password {
+    display: block;
+    margin: 0px auto;
+    max-width: 1600px;
+    width: 10%;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+}
+
+.change-password:hover {
+    color: #5B39E3;
+    cursor: pointer;
+    transition: 0.5s;
+}

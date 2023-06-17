@@ -1,0 +1,88 @@
+.Approve-cover {
+    display: flex;
+    gap: 40px;
+    min-width: 1000px;
+}
+
+.Approve-main {
+    position: relative;
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+table {
+    table-layout: auto;
+    width: 100%;
+}
+
+th {
+    font-size: 14px;
+    padding: 10px 0 10px 0px;
+    width: fit-content;
+}
+
+td {
+    font-size: 12px;
+    padding: 7px 0 7px 0px;
+    font-weight: 400;
+}
+
+table, th, td {
+    border-bottom: 1px solid #896BFF;
+}
+
+th,td {
+    padding-right: 0px;
+}
+
+table td a {
+    color: #D4CEFE;
+    background-color: #624DE3;
+    padding: 5px 10px 5px 10px;
+    border: #624DE3 1px solid;
+    border-radius: 15px;
+    box-shadow: rgba(92, 92, 92, 0.65)  0px 3px 3px;
+}
+
+table td a:hover {
+    text-decoration: none;
+    outline: none;
+    color: #624DE3;
+    background-color: #D4CEFE;
+}
+
+.table-nav {
+    padding-top: 30px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.table-nav button {
+    color: white;
+    padding: 3px 9px 3px 9px;
+    border: 0px solid black;
+    border-radius: 7px;
+    background-color: #52B6FF;
+}
+
+.table-nav button:hover {
+    background-color: #896BFF;
+    cursor: pointer;
+}
+
+.table-nav button.state {
+    color: #3F5CA8;
+    border: none;
+    background: none;
+}
+
+.table-nav button.state:hover {
+    color: #5a84ee;
+}

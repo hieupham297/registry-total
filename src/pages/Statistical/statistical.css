@@ -1,0 +1,188 @@
+.statistical-cover {
+  display: flex;
+  gap: 40px;
+  min-width: 1000px;
+}
+
+.statistical-main {
+  position: relative;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.headbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.headbar .time-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.headbar .time-filter.special {
+  width: 360px;
+  justify-content: left;
+}
+
+table {
+  table-layout: auto;
+  width: 100%;
+}
+
+th {
+  font-size: 16px;
+  color: #0c1230;
+  padding: 10px 0 10px 0px;
+  width: fit-content;
+}
+
+td {
+  font-size: 15px;
+  color: #0c1230;
+  padding: 7px 0 7px 0px;
+  font-weight: 450;
+}
+
+th.number_on_table, 
+td.number_on_table {
+ width: 70px;
+}
+
+
+table,
+th,
+td {
+  border-bottom: 1px solid #896bff;
+}
+
+th,
+td {
+  padding-right: 0px;
+  text-align: center;
+}
+
+table td button {
+  color: #d4cefe;
+  background-color: #624de3;
+  padding: 5px 10px 5px 10px;
+  border: #624de3 1px solid;
+  border-radius: 15px;
+  box-shadow: rgba(92, 92, 92, 0.65) 0px 3px 3px;
+  cursor: pointer;
+}
+
+table td button:hover {
+  text-decoration: none;
+  outline: none;
+  color: #624de3;
+  background-color: #d4cefe;
+  box-shadow: none;
+}
+
+table td button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.table-nav {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.table-nav td button {
+  color: white;
+  padding: 3px 9px 3px 9px;
+  border: 0px solid black;
+  border-radius: 7px;
+  background-color: #52b6ff;
+}
+
+.table-nav button:hover {
+  background-color: #896bff;
+  cursor: pointer;
+}
+
+.table-nav button:focus {
+  outline: none;
+}
+
+.table-nav button.state {
+  color: #3f5ca8;
+  border: none;
+  background: none;
+}
+
+.table-nav button.state:hover {
+  color: #5a84ee;
+}
+
+.dropdown-contain select {
+  width: 70px;
+  height: 25px;
+  font-size: 12px;
+  background: none;
+  color: #3f5ca8;
+  border: #3f5ca8 1px solid;
+  border-radius: 8px;
+  appearance: none;
+  padding-left: 5px;
+}
+
+.dropdown-contain select:focus {
+  outline: none;
+}
+
+.headbar {
+  display: flex;
+}
+
+.headbar.forecast {
+  width: 80%;
+  
+}
+
+.time-filter span.outdated-car {
+  font-size: 0.9rem;
+  color: #3F5CA8;
+  background-color: #BFE4FF;
+  border: 1.5px #3F5CA8 solid;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.3rem;
+}
+
+.time-filter span.number_of_car {
+  font-size: 0.9rem;
+  color: #3F5CA8;
+  background-color: #BFE4FF;
+  border: 1.5px #3F5CA8 solid;
+  padding: 0.1rem 0.7rem;
+  border-radius: 0.3rem;
+}
+
+button.userclick {
+  background: none;
+  color: red;
+  box-shadow: none;
+  border: none;
+  color: #896bff;
+  font-weight: 500;
+}
+
+button.userclick:hover {
+  background: none;
+  color: #413399;
+}

@@ -1,0 +1,42 @@
+.homepage-cover {
+    width: 90%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homepage-cover h1 {
+    font-size: 45px;
+    text-align: center;
+    padding:0 20px 40px 20px;
+    letter-spacing: 5px;
+}
+
+.homepage-item {
+    height: 200px;
+    display: flex;
+    vertical-align: middle;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.homepage-item p {
+    position: relative;
+    top: 50%;
+    translate: 0 -25%;
+}
+
+.homepage-item img {
+    width: 350px !important;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.homepage-item h2 {
+    font-size: 24px;
+}
+
+.homepage-item p {
+    width: 540px;
+    font-size: 18px;
+}

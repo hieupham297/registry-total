@@ -1,0 +1,193 @@
+.navbar {
+  height: 10vh;
+}
+
+.navbar .logo {
+    height: 100%;
+}
+
+.navbar .logo img {
+    height: 100%;
+}
+
+.navbar .list_nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 60%;
+  max-width: 650px;
+}
+
+.navbar .list_nav a {
+  text-decoration: none;
+  color: #0c1230;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: 500;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(91, 57, 227, 0);
+}
+
+.navbar .login {
+  color: white;
+  text-decoration: none;
+  background-color: #0c1230;
+  border: solid 1px gray;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.navbar .login:hover {
+  margin-bottom: -2px;
+  color: rgb(206, 205, 205);
+  cursor: pointer;
+}
+
+.navbar .list_nav a.activeLink {
+  color: #5b39e3;
+  border-bottom: 1px solid rgba(91, 57, 227, 1);
+}
+
+.navbar .list_nav a:hover {
+  color: #5b39e3;
+  border-bottom: 1px solid rgba(91, 57, 227, 1);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.menu_responsive_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50%;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    margin: 5% 0;
+}
+
+.menu_responsive_title h4 {
+  color: white;
+}
+
+.close_menu_responsive button {
+  color: white;
+  background: none;
+  border: none;
+}
+
+
+.close_menu_responsive button svg {
+  color: white;
+  font-size: 1.7rem; 
+  padding: 0.2rem;
+}
+
+.close_menu_responsive button svg:hover {
+  border-radius: 50%;
+  background-color: #17235f; 
+  transition: .4s;
+  cursor: pointer;
+}
+
+.list_nav_responsive a {
+  padding: 10px 0;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.list_nav_responsive a:hover {
+  background-color: white;
+  color: #0C1230;
+  text-decoration: none;
+}
+
+.list_nav_responsive a.activeLink {
+  background-color: white;
+  color: #0C1230;
+  text-decoration: none;
+}
+
+.menu_responsive_button {
+  background-color: #0C1230;
+  color: white;
+  border: 2px solid #0C1230;
+  border-radius: 3px;
+}
+
+.menu_responsive_button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #0C1230;
+}
+
+.menu_responsive_title .close_menu_responsive button {
+    float: right;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar .login, .navbar .list_nav{
+        display: none;
+    }
+    .navbar .login_admin_responsive {
+      display: block;
+    }
+    .list_nav_res_wrapper {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0,  0.5);
+      z-index: 2;
+    }
+    .list_nav_responsive{
+      background-color: #0C1230;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 40%;
+      min-width: 250px;
+      z-index: 1;
+    }
+    .list_nav_responsive a {
+      display: block;
+      text-align: center;
+      width: 100%;
+    }
+    .list_nav_responsive a.login {
+      display: block;
+      z-index: 1;
+      width: 100%;
+      position: absolute;
+      bottom: 2%;
+      border: none;
+      background: none;
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+    .list_nav_responsive a.login:hover {
+      margin-bottom: 0px;
+      cursor: pointer;
+    }
+    .list_nav_responsive a.login:hover {
+      margin-bottom: 0px;
+      cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .menu_responsive {
+      display: none;
+    }
+    button.side_on_nav {
+      display: none;
+    }
+}
+
+

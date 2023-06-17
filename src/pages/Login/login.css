@@ -1,0 +1,206 @@
+.login-main {
+    max-width: 1500px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-cover {
+    float: left;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(160, 159, 159, 0.35) 0px 5px 15px;
+    margin-right: 200px;
+    margin-top: 80px;
+}
+
+.login-deco {
+    font-size: 50px;
+    width: 550px;
+    font-weight: 600;
+}
+
+.login-cover h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+}
+
+form label {
+    font-size: 17px;
+    padding-left: 20px;
+    color: #3f5ca8;
+    font-weight: 500;
+}
+
+form .type-line {
+    max-width: 400px;
+    width: 85%;
+    margin-left: 20px;
+    border-bottom: 3px solid #3f5ca8;
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+form .type-line svg {
+    font-size: 25px;
+    margin: 5px;
+    color: #a5b9ed;
+    font-weight: bolder;
+}
+
+form input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 340px;
+    margin-top: 0px;
+}
+
+form input::placeholder {
+    color: #a5b9ed;
+}
+
+form .type-line button {
+    border: none;
+    background: none;
+    outline: none;
+    float: right;
+}
+
+form .type-line button img {
+    padding-top: 15px;
+}
+
+form .type-line .hidepass svg:hover {
+    cursor: pointer;
+    border: 0px #3f5ca8 solid;
+    border-radius: 50%;
+    background-color: #c0cef0;
+    color: #3f5ca8;
+}
+
+.error {
+    margin-left: 20px;
+    color: rgb(174, 3, 3);
+}
+
+.remember-password {
+    padding-left: 26.5px;
+    color: #3f5ca8;
+    display: flex;
+    align-items: center;
+}
+
+.remember-password label {
+    padding-left: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.remember-password input[type="checkbox"] {
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: #3f5ca8 3px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remember-password input[type="checkbox"]::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    font-size: 15px;
+    color: #3f5ca8;
+    display: none;
+}
+
+.remember-password input[type="checkbox"]:hover {
+    background-color: #a5a5a5;
+}
+
+.remember-password input[type="checkbox"]:checked::after {
+    display: block;
+}
+
+.login-cover #login {
+    position: relative;
+    font-size: 18px;
+    left: 50%;
+    translate: -50%;
+    border: none;
+    color: white;
+    width: 216px;
+    height: 50px;
+    border-radius: 60px;
+    background-image: linear-gradient(#52b6ff, #896bff);
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+.login-cover #login:hover {
+    background-image: none;
+    background-color: #896bff;
+    color: white;
+}
+
+.login-cover #login:focus {
+    outline: none;
+}
+
+
+.forgot-password {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.forgot-password a {
+    color: #a5b9ed;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    color: #6c7a9e;
+}
+
+@media screen and (max-width: 1300px) {
+    .login-cover {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .login-cover {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .login-deco {
+        display: none;
+    }
+    .login-cover {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .login-cover {
+        width: 300px;
+    }
+}

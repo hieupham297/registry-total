@@ -1,0 +1,227 @@
+h2 {
+  text-align: center;
+  color: #0c1230;
+}
+
+h3 {
+  font-size: 20px;
+  color: #0c1230;
+  padding: 7px;
+}
+
+.addAccount-container {
+  gap: 40px;
+  width: 100%;
+  height: 100%;
+  /* display: flex;
+  z-index: -1; */
+}
+
+.formAdd {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.form-block {
+  padding-top: 15px;
+  padding-left: 20px;
+  display: flex;
+  z-index: -1;
+}
+
+.label-text {
+  width: 150px;
+}
+
+.box-type {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #3f5ca8;
+  padding-left: 10px;
+  background: #e8f0fe;
+  outline: none;
+  width: 300px;
+  height: 32px;
+}
+
+.account-submit {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  padding-top: 20px;
+  gap: 5%;
+}
+
+.account-submit input {
+  border: 2px solid #624de3;
+  background-color: #624de3;
+  width: 7.25rem;
+  border-radius: 20px;
+  color: #e8e4ff;
+  font-size: 0.9rem;
+  padding: 7px 10px 8px 10px;
+  font-weight: 500;
+}
+
+.account-submit input:hover {
+  outline: none;
+  background-color: #d4cefe;
+  color: #624de3;
+  cursor: pointer;
+}
+
+.account-submit input[type="button"] {
+  color: rgb(255, 232, 232);
+  background-color: rgb(214, 0, 0);
+  border: 2px solid rgb(214, 0, 0);
+}
+
+.account-submit input[type="button"]:hover {
+  background-color: rgb(255, 196, 196);
+  color: rgb(214, 0, 0);
+}
+
+/* form input {
+  border: none;
+  background: none;
+  outline: none;
+  width: 340px;
+  margin-top: 0px;
+}
+
+form input::placeholder {
+  color: #A5B9ED;
+} */
+/* 
+.addAccount-main {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  align-content: center;
+  justify-content: center;
+}
+
+.addAccount-fill {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 50px;
+}
+
+.addAccount-field {
+  font-size: 12px;
+  border: #896bff solid 1px;
+  border-radius: 15px;
+
+}
+
+.addAccount-field .info {
+  width: 100%;
+}
+
+.addAccount-field .info form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: auto auto;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+  row-gap: 5px;
+  translate: 0 -15%;
+}
+
+.info-title {
+  translate: 10% -50%;
+  z-index: 1;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: none;
+}
+
+.info-title h3 {
+  font-size: 20px;
+  border: 1px solid #624de3;
+  border-radius: 15px;
+  color: #624de3;
+  background-color: #d4cefe;
+  padding: 7px;
+}
+
+.info form label {
+  font-size: 15px;
+  width: 155px;
+}
+
+.info form input {
+  border: 1px solid #896bff;
+  width: 50%;
+  height: 30px;
+  font-size: 14px;
+  color: #0c1230;
+}
+
+.info form input:hover {
+  cursor: pointer;
+}
+
+.account-submit {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  padding-top: 20px;
+  gap: 5%;
+
+}
+
+.account-submit input {
+  border: 2px solid #624de3;
+  background-color: #624de3;
+  width: 7.25rem;
+  border-radius: 20px;
+  color: #e8e4ff;
+  font-size: 0.9rem;
+  padding: 7px 10px 8px 10px;
+  font-weight: 500;
+
+}
+
+.account-submit input:hover {
+  outline: none;
+  background-color: #d4cefe;
+  color: #624de3;
+  cursor: pointer;
+}
+
+.account-submit input[type="button"] {
+  color: rgb(255, 232, 232);
+  background-color: rgb(214, 0, 0);
+  border: 2px solid rgb(214, 0, 0);
+}
+
+.account-submit input[type="button"]:hover {
+  background-color: rgb(255, 196, 196);
+  color: rgb(214, 0, 0);
+}
+
+.info form select {
+  outline: none;
+  background: none;
+  border: #624de3 1px solid;
+  width: 50%;
+  height: 25px;
+  font-size: 14px;
+  color: #3f5ca8;
+}
+
+.info form select:focus {
+  background: none;
+  outline: none;
+}
+
+.info form select > option {
+  color: #3f5ca8;
+  background-color: #e9f5fe;
+} */

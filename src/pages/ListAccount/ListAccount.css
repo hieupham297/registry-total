@@ -1,0 +1,58 @@
+.listAccount-container {
+  display: flex;
+}
+
+.listAccount-main {
+  position: relative;
+  width: 100%;
+  min-width: 1000px;
+}
+
+.listAccount-main td {
+  padding: 7px 0px 7px 0px;
+}
+
+button.activePage {
+  background-color: #624de3;
+}
+
+button.edit_button, button.delete_button {
+  border: none;
+  background: none;
+  box-shadow: none;
+  padding: 5px;
+}
+
+button.edit_button svg {
+  color: #624de3;
+  font-size: 1.5rem;
+}
+
+.listAccount-main td a {
+  background: none;
+  font-size: 0.9rem;
+  box-shadow: none;
+  border: none;
+}
+
+button.edit_button:hover, .listAccount-main td a:hover {
+  background: none;
+}
+
+button.edit_button:hover svg, .listAccount-main td a button.edit_button:hover svg{
+  color: #34297c;
+}
+
+button.delete_button svg {
+  color: #e11219;
+  font-size: 1.5rem;
+}
+
+button.delete_button:hover {
+  background: none;
+}
+
+button.delete_button:hover svg {
+  color: #A30D11;
+}
+
